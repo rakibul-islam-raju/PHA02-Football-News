@@ -75,4 +75,53 @@ body{
 .player-detail{
     color: #6C6C6C;
 }
+
+/* highlight section */
+.highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 160px;
+}
+.highlight-text{
+    width: 470px;
+}
+.highlight-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+.highlight-text p{
+    color: #6C6C6C;
+    margin-bottom: 25px;
+}
+.highlight-img{
+    width: 567px;
+    margin-left: 65px;
+}
+.highlight-img img{
+    width: 100%;
+}
+
 /* footer area */
+.footer{
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.footer-img img{
+    width: 485px;
+    margin-bottom: 20px;
+}
+.social-icons{
+    margin-bottom: 20px;
+}
+.social-icons .fab{
+    margin: 0 7px;
+    color: #969BAB;
+    background-color: #E7E7E8;
+    padding: 8px;
+    border-radius: 45%;
+    font-size: 20px;
+}

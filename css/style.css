@@ -122,6 +122,111 @@ body{
     color: #969BAB;
     background-color: #E7E7E8;
     padding: 8px;
-    border-radius: 45%;
+    border-radius: 50%;
     font-size: 20px;
+}
+
+/* ------------------ 
+    Media Queries
+------------------- */
+
+/* mobile phnone */
+@media only screen and (max-width: 688px) {
+    /* header area */
+    .banner{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .banner-text h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 27px;
+    }
+    .banner-img{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .banner-img img{
+        width: 329px;
+        height: 100%;
+    }
+
+    /* player section */
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* highlight section */
+    .highlights{
+        flex-direction: column;
+        margin-top: 95px;
+    }
+    .highlight-text{
+        width: 330px;
+    }
+    .highlight-text h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-img{
+        width: 330px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    /* footer section */
+    .footer{
+        margin-top: 45px;
+    }
+    .footer-img img{
+        width: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width:689px) and (max-width: 1024px) {
+    /* header area */
+    .banner{
+        flex-direction: row;
+        padding: 30px;
+    }
+    .banner-text h1{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 27px;
+    }
+    .banner-img{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .banner-img img{
+        width: 329px;
+        height: 100%;
+    }
+
+    /* players section */
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* highlight section */
+    .highlights{
+        flex-direction: row;
+        margin-top: 95px;
+    }
+    .highlight-text{
+        width: 330px;
+    }
+    .highlight-text h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .highlight-img{
+        width: 330px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
 }
